@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <!-- style link -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/cdn.jsdelivr.net_npm_swiper@10.0.3_swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo">
+                Movie<span>link</span>
+            </a>
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="search movie">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a href="#" class="user">
+                <img src="img/user.jpg" alt="" class="user-img">
+            </a>
+       
+              <div class="navbar">
+                <a href="#home" class="nav-link nav-active">
+                    <i class="fa-solid fa-house"></i>  
+                    <span class="nav-link-title">Home</span>
+                </a>
+                
+                    <a href="#Trending" class="nav-link">
+                        <i class='fas fa-burn'></i> 
+                    <span class="nav-link-title">Trending</span>
+                    </a>
+                
+                    <a href="#Explore" class="nav-link">
+                    <i class="fa-sharp fa-regular fa-compass"></i>  
+                    <span class="nav-link-title">Explore</span>
+                    </a>
+                    <a href="play page.html" class="nav-link">
+                    <i class='fas fa-tv'></i> 
+                    <span class="nav-link-title">Movies</span>
+                    </a>
+                
+                    <a href="#favourite" class="nav-link">
+                    <i class="fa-solid fa-heart"></i>  
+                    <span class="nav-link-title">favourite</span>
+                </a>
+              </div>
+
+        </div>
+    </header>
+
+    <!-- home section -->
+    <div class="home container" id="home">
+            <img src="img/home-background.jpg" alt="" class="home-img">
+
+            <div class="home-text">
+                <h1 class="home-title">Leo <br>Time To Lead</h1>
+                <p>Releasing 19 oct</p><br>
+                <a href="https://www.youtube.com/watch?v=qN3wfuPYTI4" class="watct-btn" target="_blank">
+                    <i class="fa-solid fa-play"></i>
+                    
+                    <span>Watch the triler</span>
+                </a>
+            </div>
+    </div>
+  <br><br>
+    <!-- end home -->
+    <!-- popular section -->
+    <section id="Trending" class="popular-container" >
+        <div class="heading">
+            <h2 class="heading-title">Popular Movies</h2>
+            <!-- swiper button -->
+            <div class="swiper-btn">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>   
+            </div>
+        </div>
+            <div class="popular-content swiper">
+                
+                <div class="swiper-wrapper">
+                   
+                     <!--  movie 1 --> 
+                     <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                            <h2 class="movie-title">Master</h2>
+                            <span class="movie-type">Action/Thriller</span>
+                            <a href="#" class="watct-btn play-btn">
+                                <i class="fa-solid fa-play"></i>
+                    
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+
+                     <!--  movie 2 --> 
+                     <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="img/popular-movie-2.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                            <h2 class="movie-title">Thalaiva </h2>
+                            <span class="movie-type">Action/Drama</span>
+                            <a href="#" class="watct-btn play-btn">
+                                <i class="fa-solid fa-play"></i>
+                                
+                                
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+
+                     <!--  movie 3 --> 
+                     <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="img/popular-movie-3.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                            <h2 class="movie-title">Kaththi</h2>
+                            <span class="movie-type">Action/Drama</span>
+                            <a href="#" class="watct-btn play-btn">
+                                <i class="fa-solid fa-play"></i>
+                                
+                                
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+
+                     <!--  movie 4 --> 
+                     <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="img/popular-movie-4.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                            <h2 class="movie-title">Thuppaki</h2>
+                            <span class="movie-type">Action/Thriller</span>
+                            <a href="#" class="watct-btn play-btn">
+                                <i class="fa-solid fa-play"></i>
+                                
+                                
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+
+                     <!--  movie 5 --> 
+                     <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="img/popular-movie-5.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                            <h2 class="movie-title">Yennai Arindhaal</h2>
+                            <span class="movie-type">Action/Drama</span>
+                            <a href="#" class="watct-btn play-btn">
+                                <i class="fa-solid fa-play"></i>
+                                
+                               
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+
+                     <!--  movie 6 --> 
+                     <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="img/popular-movie-6.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                            <h2 class="movie-title">Mankatha</h2>
+                            <span class="movie-type">Action/Thriller </span>
+                            <a href="#" class="watct-btn play-btn">
+                                <i class="fa-solid fa-play"></i>
+                                
+                            
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                     <!--  movie 7 --> 
+                     <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="img/popular-movie-7.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                            <h2 class="movie-title">Thunivu</h2>
+                            <span class="movie-type">Action/Thriller</span>
+                            <a href="#" class="watct-btn play-btn">
+                                <i class="fa-solid fa-play"></i>
+                                
+                              
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+
+                     <!--  movie 8 --> 
+                     <div class="swiper-slide">
+                        <div class="movie-box">
+                            <img src="img/popular-movie-8.jpg" alt="" class="movie-box-img">
+                            <div class="box-text">
+                            <h2 class="movie-title">Billa</h2>
+                            <span class="movie-type">Action/Thriller</span>
+                            <a href="#" class="watct-btn play-btn">
+                                <i class="fa-solid fa-play"></i>
+                                  
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                  
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  
+            </div>
+    </section> <br>
+
+    <!-- popular section ends -->
+    <!-- movies section start -->
+     <section class="movies container" id="Explore">
+        <div class="heading">
+            <h2 class="heading-title"> Movies And Shows</h2>
+        </div>
+            <!--  movie content -->
+            <div class="movies-content">
+                <!-- movie box 1 -->
+                <div class="movie-box">
+                    <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                    <h2 class="movie-title">Mersal</h2>
+                    <span class="movie-type">Action/Romance</span>
+                    <a href="#" class="watct-btn play-btn">
+                        <i class="fa-solid fa-play"></i>
+                          
+                    </a>
+                    
+                </div>
+            </div>
+
+                <!-- movie box 2 -->
+                <div class="movie-box">
+                    <img src="img/movie-2.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                    <h2 class="movie-title">Maaveeran</h2>
+                    <span class="movie-type">Action</span>
+                    <a href="#" class="watct-btn play-btn">
+                        <i class="fa-solid fa-play"></i>
+                          
+                    </a>
+                    
+                </div>
+            </div>
+
+                <!-- movie box 3 -->
+                <div class="movie-box">
+                    <img src="img/movie-3.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                    <h2 class="movie-title">Karnan</h2>
+                    <span class="movie-type">Action/Drama</span>
+                    <a href="#" class="watct-btn play-btn">
+                        <i class="fa-solid fa-play"></i>
+                          
+                    </a>
+                    
+                </div>
+            </div>
+
+                <!-- movie box 4 -->
+                <div class="movie-box">
+                    <img src="img/movie-4.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                    <h2 class="movie-title">OK Kanmani</h2>
+                    <span class="movie-type">Romance/Drama</span>
+                    <a href="#" class="watct-btn play-btn">
+                        <i class="fa-solid fa-play"></i>
+                          
+                    </a>
+                    
+                </div>
+            </div>
+
+                <!-- movie box 5 -->
+                <div class="movie-box">
+                    <img src="img/movie-5.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                    <h2 class="movie-title">96</h2>
+                    <span class="movie-type">Romance/Drama</span>
+                    <a href="#" class="watct-btn play-btn">
+                        <i class="fa-solid fa-play"></i>
+                          
+                    </a>
+                    
+                </div>
+            </div>
+
+                <!-- movie box 6 -->
+                <div class="movie-box">
+                    <img src="img/movie-6.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                    <h2 class="movie-title">Maanaadu</h2>
+                    <span class="movie-type">Action/Sci-fi</span>
+                    <a href="#" class="watct-btn play-btn">
+                        <i class="fa-solid fa-play"></i>
+                          
+                    </a>
+                    
+                </div>
+            </div>
+
+                <!-- movie box 7 -->
+                <div class="movie-box">
+                    <img src="img/movie-7.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                    <h2 class="movie-title">Beast</h2>
+                    <span class="movie-type">Action/Crime</span>
+                    <a href="#" class="watct-btn play-btn">
+                        <i class="fa-solid fa-play"></i>
+                          
+                    </a>
+                    
+                </div>
+            </div>
+
+                <!-- movie box 8 -->
+                <div class="movie-box">
+                    <img src="img/movie-8.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                    <h2 class="movie-title">Varisu</h2>
+                    <span class="movie-type">Drama/Action</span>
+                    <a href="#" class="watct-btn play-btn">
+                        <i class="fa-solid fa-play"></i>
+                          
+                    </a>
+                    
+                </div>
+            </div>
+            
+        </div>
+     </section>
+
+    <!-- movies section ends -->
+      <div class="next-page">
+      <a href="#" class="next-btn">next page</a>
+
+    </div>
+
+    <!-- copy rights -->
+        <div class="copyrights">
+            <p> @ Carpoolvenom All Right Reserver</p>
+        </div>
+    
+
+        <!-- script -->
+        <script src="script/cdn.jsdelivr.net_npm_swiper@10.0.3_swiper-bundle.min.js"></script>
+    <script src="script/script.js"></script>
+    
+</body>
+</html>
